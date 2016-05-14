@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:layout_margin="1dp"
+    tools:context="com.sidiq.intel.hotelapp.GalleryActivity">
+    <GridView
+        android:id="@+id/gv_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="4"
+        android:cacheColorHint="@android:color/transparent"
+        android:verticalSpacing="0.5dp"
+        android:horizontalSpacing="0.5dp"
+        android:layout_centerHorizontal="true"
+        android:stretchMode="columnWidth"></GridView>
+</RelativeLayout>
